@@ -1,0 +1,276 @@
+{
+  "itineraries": [
+    {
+      "id": "family",
+      "name": "Family 5-Day",
+      "steps": [
+        "Beaches",
+        "Rainforest walk",
+        "Volcano viewpoint",
+        "Merriton Landing evening"
+      ]
+    },
+    {
+      "id": "48h",
+      "name": "48‑Hour Highlights",
+      "steps": [
+        "Beaches",
+        "Merriton Landing",
+        "Volcano viewpoint"
+      ]
+    },
+    {
+      "id": "eco",
+      "name": "Eco & Hike Weekend",
+      "steps": [
+        "Rainforest",
+        "Volcano",
+        "Local food"
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "Culture & Food Trail",
+      "steps": [
+        "Museum",
+        "Galleries",
+        "Local fish & rice"
+      ]
+    }
+  ],
+  "dining": [
+    {
+      "id": "reef",
+      "name": "Reef Table",
+      "cuisines": [
+        "local"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "price": "$$",
+      "area": "Merriton Landing"
+    },
+    {
+      "id": "bamboo",
+      "name": "Bamboo Bowl",
+      "cuisines": [
+        "pan-asian"
+      ],
+      "diet": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "price": "$-$$",
+      "area": "Taniti City"
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor Grill",
+      "cuisines": [
+        "american"
+      ],
+      "diet": [
+        "vegetarian"
+      ],
+      "price": "$-$$",
+      "area": "Taniti City"
+    }
+  ],
+  "stays": [
+    {
+      "id": "seagrass",
+      "name": "Seagrass B&B",
+      "price": "$$",
+      "tags": [
+        "family-owned",
+        "walkable",
+        "families"
+      ],
+      "location": "Near Merriton Landing",
+      "best": "Families",
+      "overview": "Cozy rooms with local hosts and simple breakfast. Great home base for evening dining and activities.",
+      "amenities": [
+        "Wi‑Fi",
+        "Family rooms",
+        "Limited on‑site parking"
+      ],
+      "booking": "#/extern/book",
+      "access": [
+        "Ground‑floor rooms available; inquire for details."
+      ],
+      "nearby": [
+        "Microbrewery",
+        "Galleries",
+        "Arcade"
+      ]
+    },
+    {
+      "id": "resort",
+      "name": "Yellow Leaf Resort",
+      "price": "$$$",
+      "tags": [
+        "beachfront",
+        "pool"
+      ],
+      "location": "Bayfront",
+      "best": "Couples & families",
+      "overview": "Full‑service resort with pool and on‑site dining; beachfront access.",
+      "amenities": [
+        "Wi‑Fi",
+        "Pool",
+        "On‑site dining"
+      ],
+      "booking": "#/extern/book",
+      "access": [
+        "Elevators to guest floors"
+      ],
+      "nearby": [
+        "Beaches",
+        "Volcano tours"
+      ]
+    },
+    {
+      "id": "hostel",
+      "name": "Harbor Hostel",
+      "price": "$",
+      "tags": [
+        "walkable",
+        "budget"
+      ],
+      "location": "City center",
+      "best": "Backpackers",
+      "overview": "Simple dorms in a central, walkable area.",
+      "amenities": [
+        "Wi‑Fi"
+      ],
+      "booking": "#/extern/book",
+      "access": [
+        "Stairs to upper floors"
+      ],
+      "nearby": [
+        "City buses",
+        "Beaches"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What is the drinking age?", "a": "18. Alcohol service is typically paused 12:00 a.m.–9:00 a.m." },
+    { "q": "When is alcohol not served?", "a": "From 12:00 a.m. to 9:00 a.m. at most venues." },
+    { "q": "What currency is used?", "a": "USD. Cards are widely accepted; banks exchange major currencies." },
+    { "q": "Do I need a power adapter?", "a": "Outlets are 120V U.S. standard (Type A/B)." },
+    { "q": "Is English spoken?", "a": "Yes, especially in the city and tourism areas; less common in rural areas." },
+
+    { "q": "Do I need a visa?", "a": "Most short‑stay visitors don’t need a visa; bring a valid passport with 6+ months remaining." },
+    { "q": "Is Taniti safe?", "a": "Yes—violent crime is rare. Use normal travel precautions, especially late at night." },
+    { "q": "What’s the emergency number?", "a": "Dial 112 from any phone for emergency services." },
+    { "q": "Is the tap water safe?", "a": "Yes in Taniti City and main districts. Bottled water is widely available elsewhere." },
+    { "q": "What’s the best time to visit?", "a": "Year‑round is pleasant. Dry months are typically May–September; brief showers are common anytime." },
+    { "q": "How hot is it?", "a": "Warm tropical climate: daytime 24–31°C (75–88°F). Evenings are comfortable." },
+    { "q": "How do I get around?", "a": "City buses run 5 a.m.–11 p.m.; taxis and rides are available late; rentals and bikes are common." },
+    { "q": "Is Taniti walkable?", "a": "Yes in many districts, including the waterfront. Use crosswalks and watch for scooters." },
+    { "q": "Is Taniti accessible?", "a": "Major sights and buses on main lines offer accessibility features; check specific venues in advance." },
+    { "q": "Can I swim at the beaches?", "a": "Yes, many are swimmable. Observe flags and lifeguard guidance; wear reef‑safe sunscreen." },
+    { "q": "Do I need to tip?", "a": "Tipping 10–15% is appreciated in restaurants and for drivers/guides when service is good." },
+    { "q": "Will I have mobile data and Wi‑Fi?", "a": "Wi‑Fi is common in hotels/cafes. Local SIMs and eSIMs are available; coverage is best in the city." },
+    { "q": "Are shops open on holidays?", "a": "Some services and attractions may be limited on national holidays; check hours in advance." }
+  ],
+  "otherActivities": [
+    {"title":"Snorkeling","href":"#/activity/snorkeling"},
+    {"title":"Chartered fishing","href":"#/activity/fishing"},
+    {"title":"Zip-lining","href":"#/activity/zip"},
+    {"title":"Helicopter rides","href":"#/activity/heli"},
+    {"title":"History museum","href":"#/activity/museum"},
+    {"title":"Art galleries","href":"#/activity/galleries"},
+    {"title":"Movie theater","href":"#/activity/movies"},
+    {"title":"Bowling & arcade","href":"#/activity/bowling"}
+  ],
+  "activities": {
+    "volcano": {
+      "title": "Volcano Viewpoint Tour",
+      "type": "Guided · Outdoor · Half‑day",
+      "best": "Families & first‑time visitors",
+      "area": "Mountain interior (safe viewpoints)",
+      "overview": "Ride to safe volcanic viewpoints with a local guide. Learn about Taniti’s geology and history; photo stops at two overlooks.",
+      "know": [
+        "Weather can change quickly; bring sun protection and water.",
+        "Some days may be limited on national holidays."
+      ],
+      "transport": "Meet‑up in Taniti City; shuttle provided. Buses run 5 a.m.–11 p.m.",
+      "access": [
+        "Shuttle with steps",
+        "Overlooks have railings and benches",
+        "Uneven ground in some areas"
+      ],
+      "actions": [
+        [
+          "Book →",
+          "#/extern/book"
+        ],
+        [
+          "View map →",
+          "#/map"
+        ]
+      ],
+      "tags": [
+        "Family‑friendly",
+        "Half‑day",
+        "Outdoor",
+        "$$"
+      ]
+    },
+    "rainforest": {
+      "title": "Rainforest Walk (Self‑guided)",
+      "type": "Self‑guided · Outdoor",
+      "best": "Families · Photo spots",
+      "area": "Rainforest loop",
+      "overview": "Easy loop with canopy views and interpretive signs on local flora.",
+      "know": [
+        "Stay on marked paths; bring water and repellent.",
+        "May close on some holidays."
+      ],
+      "transport": "City bus to trailhead or taxi/car.",
+      "access": [
+        "Packed dirt path; occasional roots",
+        "Not fully accessible for wheels"
+      ],
+      "actions": [
+        [
+          "View map →",
+          "#/map"
+        ]
+      ],
+      "tags": [
+        "Outdoor",
+        "Free",
+        "Family‑friendly"
+      ]
+    },
+    "museum": {
+      "title": "Taniti History Museum",
+      "type": "Indoor · Cultural",
+      "best": "Families",
+      "area": "Taniti City",
+      "overview": "Exhibits on Taniti’s history, culture, and art with multilingual signage.",
+      "know": [
+        "Hours vary; may close on national holidays.",
+        "Suggested donation / tickets at desk."
+      ],
+      "transport": "Walkable from city center; buses 5 a.m.–11 p.m.; taxis available.",
+      "access": [
+        "Ramps and elevators",
+        "Seating areas"
+      ],
+      "actions": [
+        [
+          "View details →",
+          "#/museum/details"
+        ]
+      ],
+      "tags": [
+        "Indoor",
+        "Family‑friendly"
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Taniti Tourism — Low‑Fi Prototype</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="wrap topbar">
+    <div class="brand"><a id="brandHome" href="#/home" aria-label="Taniti Tourism home">Taniti Tourism</a></div>
+    <nav class="primary" id="primaryNav" aria-label="Primary">
+      <button id="menuToggle" type="button" aria-controls="menuList" aria-expanded="false">☰ Menu</button>
+      <ul id="menuList">
+        <li><a href="#/home" data-link>Home</a></li>
+        <li><a href="#/plan" data-link>Plan</a></li>
+        <li><a href="#/things" data-link>Things to Do</a></li>
+        <li><a href="#/stay" data-link>Places to Stay</a></li>
+        <li><a href="#/dining" data-link>Food &amp; Dining</a></li>
+        <li><a href="#/transport" data-link>Getting Around</a></li>
+        <li><a href="#/about" data-link>About</a></li>
+        <li><a href="#/faqs" data-link>FAQs</a></li>
+        <li><a href="#/contact" data-link>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="app" class="wrap" tabindex="-1">
+  <noscript>Please enable JavaScript to view this prototype.</noscript>
+</main>
+
+<footer>
+  <nav class="footer-nav" aria-label="Footer">
+    <a href="#/home">Home</a>
+    <a href="#/plan">Plan</a>
+    <a href="#/things">Things to Do</a>
+    <a href="#/stay">Stay</a>
+    <a href="#/dining">Dining</a>
+    <a href="#/transport">Transport</a>
+    <a href="#/about">About</a>
+    <a href="#/faqs">FAQs</a>
+    <a href="#/contact">Contact</a>
+  </nav>
+  <div class="footnote">© Taniti Tourism · Content based on About the Island &amp; survey insights · Photos/maps are placeholders</div>
+</footer>
+
+<!-- Booking Modal -->
+<div id="bookingModal" class="modal-overlay" role="presentation" hidden>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="bk-title">
+    <div class="modal-header">
+      <div id="bk-title" class="modal-title">Start booking</div>
+      <button id="bk-close-x" class="iconbtn" type="button" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="stack">
+        <label for="bk-name">Full name</label>
+        <input id="bk-name" type="text" placeholder="e.g., Taylor Rivera" />
+        <label for="bk-email">Email</label>
+        <input id="bk-email" type="email" placeholder="you@example.com" />
+        <div class="grid cols-3">
+          <div><label for="bk-arr">Arrival</label><input id="bk-arr" type="date" /></div>
+          <div><label for="bk-dep">Departure</label><input id="bk-dep" type="date" /></div>
+          <div><label for="bk-party">Party size</label><input id="bk-party" type="number" min="1" value="2" /></div>
+        </div>
+        <label for="bk-type">Lodging type</label>
+        <select id="bk-type">
+          <option value="any">Any</option>
+          <option value="family-owned">Family-owned</option>
+          <option value="b&amp;b">B&amp;B</option>
+          <option value="resort">Resort</option>
+          <option value="hostel">Hostel</option>
+        </select>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button id="bk-clear" class="btn" type="button">Clear</button>
+      <button id="bk-close" class="btn" type="button">Close</button>
+      <button id="bk-submit" class="btn primary" type="button">Book</button>
+    </div>
+  </div>
+</div>
+
+<!-- Reserve (Call/Reserve) Modal -->
+<div id="reserveModal" class="modal-overlay" role="presentation" hidden>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="rv-title">
+    <div class="modal-header">
+      <div id="rv-title" class="modal-title">Call/Reserve</div>
+      <button id="rv-close-x" class="iconbtn" type="button" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="stack">
+        <p class="mini">Prefer to call now? <a id="rv-phone-link" href="tel:+18085550123">+1 (808) 555‑0123</a></p>
+        <label for="rv-name">Your name</label>
+        <input id="rv-name" type="text" placeholder="e.g., Taylor Rivera" />
+        <label for="rv-phone">Your phone</label>
+        <input id="rv-phone" type="tel" placeholder="e.g., +1 808 555 0199" />
+        <div class="grid cols-3">
+          <div><label for="rv-time">Preferred time</label><input id="rv-time" type="time" /></div>
+          <div><label for="rv-date">Date</label><input id="rv-date" type="date" /></div>
+          <div><label for="rv-party">Party size</label><input id="rv-party" type="number" min="1" value="2" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button id="rv-clear" class="btn" type="button">Clear</button>
+      <button id="rv-close" class="btn" type="button">Close</button>
+      <button id="rv-submit" class="btn primary" type="button">Request reservation</button>
+    </div>
+  </div>
+</div>
+
+<div aria-hidden="true" hidden>
+  <a id="/home"></a>
+  <a id="/plan"></a>
+  <a id="/things"></a>
+  <a id="/stay"></a>
+  <a id="/dining"></a>
+  <a id="/transport"></a>
+  <a id="/about"></a>
+  <a id="/faqs"></a>
+  <a id="/contact"></a>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
